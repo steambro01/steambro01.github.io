@@ -1,5 +1,7 @@
 body{
-    background-color: bisque;
+    background-image: url(../images/background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     text-align: center;
@@ -9,30 +11,52 @@ body figure{
     border: 15px solid transparent;
     display: block;
 }
-figure img{
-    width: 30%;
-    padding:20px; 
+
+h1{
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
 }
-figure figcaption{
-    margin: 20px;
-    display: inline-block;
-  
-}
-figure figcaption h2{
-    padding: 20px;
-    font-weight: bold;
+h2{
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline ;
     text-align: center;
-    text-decoration: underline;
-    color: gray;
+}
+#links{
+    display:inline-block;
+    
+}
+#years{
+display: inline-block;
+float: right;
+margin-right: 20%;/*makes space in between "five years from now" and right wall*/ 
 }
 
-.button button{
+#links button{
     display: block;
+    width: 100%; /*makes all buttons the same size and full length*/
     border: solid 15px transparent;
     margin: 15px;
     background-color: rgb(60, 183, 166);
 }
-.button button a{
+#links button a{
     text-decoration: none;
     color: black;
+}
+p{
+    font-weight: bolder;
+    color: white;
+    backdrop-filter: blur(5px); /* this blurs the background of text to make more readable   */
+}
+.flex-container{ /* used flexbox to put image and caption inline */
+    display: flex;
+}
+.caption{
+    margin: 5%;
+}
+.figure{
+    margin: 5%;
+    width: 300%;
 }
