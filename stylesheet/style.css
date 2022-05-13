@@ -53,6 +53,7 @@ p{
 .flex-container{ /* used flexbox to put image and caption inline */
     display: flex;
     border: solid 15px transparent;
+    flex-direction: row;
     
 
 }
@@ -77,4 +78,16 @@ p{
     background: transparent;
     border: transparent;
     color: white;
+}
+
+#buttons{
+    width: 25%;
+    height:100%;
+    border: solid 15px transparent;
+}
+#years{
+    width: 25%;
+    height: 100%;
+    border: solid 15px transparent;
+    
 }
