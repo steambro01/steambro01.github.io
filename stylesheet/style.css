@@ -5,7 +5,7 @@ body{
 }
 h1{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 body figure{
     border: 15px solid transparent;
@@ -52,11 +52,29 @@ p{
 }
 .flex-container{ /* used flexbox to put image and caption inline */
     display: flex;
+    border: solid 15px transparent;
+    
+
 }
 .caption{
     margin: 5%;
+    border: 15px solid transparent;
+    width: 50%;
+    height: 25%;
 }
 .figure{
     margin: 5%;
-    width: 300%;
+    border:15px solid transparent;
+    height:25%;
+    width: 25%;
+}
+.figure img{
+}
+.hide{
+    display: none;
+}
+#readMore{
+    background: transparent;
+    border: transparent;
+    color: white;
 }
